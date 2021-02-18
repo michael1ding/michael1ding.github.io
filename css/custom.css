@@ -1,0 +1,86 @@
+/* your styles go here */
+
+.card {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    
+}
+
+.card:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+}
+
+a#resume-button {
+    border-radius: 18px;
+    border: 2px solid white;
+    padding: 0.5em 0.7em;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+a#resume-button:hover {
+    background: none;
+    padding: 0.5em 1em;
+    color: #ddd;
+    border: 2px solid #ccc;
+    text-decoration: none;
+    letter-spacing: 1px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    animation-duration: .75s;
+}
+
+label#resume-click:hover {
+    cursor: pointer;
+}
+
+.container-z{
+  width: 100%;
+  text-align: center;
+}
+
+.bullet-experiences {
+    padding-inline-start: 20px;
+}
+
+.resume {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    color: #fff;
+    background-color: #111;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.btn.btn-primary {
+    border-radius: 18px;
+    border: 2px solid black;
+    padding: 0.3em 0.7em;
+}
+
+h2#resume.heading::after {
+    background: white;
+}
+
+p.social a  {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+p.social a i {
+    line-height: 28px;
+}
